@@ -789,7 +789,7 @@
                     "name": "move ",
                     "type": "Value",
                     "id": "69447d10-fac9-43f1-acd1-75558d0bf84e",
-                    "expectedControlType": "",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
