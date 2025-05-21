@@ -786,7 +786,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "move ",
+                    "name": "right",
                     "type": "Value",
                     "id": "69447d10-fac9-43f1-acd1-75558d0bf84e",
                     "expectedControlType": "Vector2",
@@ -798,6 +798,15 @@
                     "name": "fire",
                     "type": "Button",
                     "id": "103f0ba9-d9e5-4706-bd72-499b52a69276",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "left",
+                    "type": "Button",
+                    "id": "dd63ac82-cea1-4803-8a13-d36c47a224ab",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -823,20 +832,9 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "move ",
+                    "action": "right",
                     "isComposite": true,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "left",
-                    "id": "e4d7b47c-d060-44e3-b5f4-aac0b98c3402",
-                    "path": "<Keyboard>/a",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
-                    "action": "move ",
-                    "isComposite": false,
-                    "isPartOfComposite": true
                 },
                 {
                     "name": "right",
@@ -845,7 +843,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "move ",
+                    "action": "right",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -857,6 +855,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "19870a0e-4a6b-414a-aa92-015481548b8d",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "left",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
